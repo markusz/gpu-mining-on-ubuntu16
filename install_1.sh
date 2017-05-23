@@ -9,7 +9,7 @@ chmod +x NVIDIA-Linux-x86_64-352.41.run
 wget https://developer.nvidia.com/compute/cuda/8.0/prod/local_installers/cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64-deb
 dpkg -i cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64-deb
 apt-get update
-apt-get install cuda-toolkit-8-0 -silent
+apt-get install cuda-toolkit-8-0
 usermod -a -G video $USER
 echo "" >> ~/.bashrc
 echo "export PATH=/usr/local/cuda-8.0/bin:$PATH" >> ~/.bashrc
