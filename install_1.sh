@@ -3,9 +3,9 @@
 # Instance will restart
 apt-get update && apt-get -y dist-upgrade
 apt-get install gcc g++ build-essential libssl-dev automake linux-headers-$(uname -r) git gawk libcurl4-openssl-dev libjansson-dev xorg libc++-dev libgmp-dev python-dev
-cd && wget http://us.download.nvidia.com/XFree86/Linux-x86_64/367.35/NVIDIA-Linux-x86_64-367.35.run
-chmod +x NVIDIA-Linux-x86_64-367.35.run
-./NVIDIA-Linux-x86_64-367.35.run --accept-license --no-questions --disable-nouveau --no-install-compat32-libs
+cd && wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.66/NVIDIA-Linux-x86_64-375.66.run
+chmod +x NVIDIA-Linux-x86_64-375.66.run
+./NVIDIA-Linux-x86_64-375.66.run --accept-license --no-questions --disable-nouveau --no-install-compat32-libs
 wget https://developer.nvidia.com/compute/cuda/8.0/prod/local_installers/cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64-deb
 dpkg -i cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64-deb
 apt-get update
