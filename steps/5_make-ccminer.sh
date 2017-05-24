@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Run as sudo su
-# Instance will restart
 
 cd /usr/local/cuda/samples/1_Utilities/deviceQuery
 make
@@ -12,5 +11,5 @@ git checkout linux
 ./autogen.sh
 ./configure
 make
-sudo make install
-
+make install
+ccminer --help

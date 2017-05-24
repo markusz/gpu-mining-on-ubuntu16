@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run as sudo su
-# Instance will restart
+# Prepare apt-get
 
 mkdir ~/mining
 apt-get update && apt-get -y dist-upgrade

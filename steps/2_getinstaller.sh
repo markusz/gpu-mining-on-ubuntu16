@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run as sudo su
-# Instance will restart
+# Get nvidia linux driver & CUDA
 
 cd ~/mining && wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.66/NVIDIA-Linux-x86_64-375.66.run
 chmod +x ~/mining/NVIDIA-Linux-x86_64-375.66.run

@@ -4,6 +4,9 @@
 # After a restart, this will work
 
 ~/mining/NVIDIA-Linux-x86_64-375.66.run --accept-license --no-questions --disable-nouveau --no-install-compat32-libs
-reboot
+echo "---------------------------------------------------"
+echo "| Disabled Nouveau Driver - A RESTART IS REQUIRED |"
+echo "| Reboot machine and continue with next step      |"
+echo "---------------------------------------------------"
 
 
