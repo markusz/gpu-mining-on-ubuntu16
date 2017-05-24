@@ -3,6 +3,7 @@
 # Instance will restart
 
 dpkg -i ~/mining/cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64-deb
+apt-get update
 apt-get install cuda-toolkit-8-0
 usermod -a -G video $(whoami)
 echo "" >> ~/.bashrc
