@@ -3,7 +3,7 @@
 cd /usr/local/cuda/samples/1_Utilities/deviceQuery
 make
 /usr/local/cuda/samples/1_Utilities/deviceQuery/deviceQuery
-cd ~
+cd ~/mining
 git clone https://github.com/tpruvot/ccminer
 cd ccminer
 git checkout linux
