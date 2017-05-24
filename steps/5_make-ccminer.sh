@@ -12,4 +12,5 @@ git checkout linux
 ./configure
 make
 make install
-ccminer --help
+# Start ccminer, if this works, than you are good to go with your own pool
+ccminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u mail.markus.ziller+minergate@gmail.com -p x
